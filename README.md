@@ -93,7 +93,7 @@ The command line can be as simple as:
 	perl GPStree.pl -i ${PATH_TO_GPSit}/test/01_initial_MSAs/ -n ${PATH_TO_GPSit}/test/02_new_protein_seqs/ -o ${PATH_TO_GPSit}/test/03_output_dir/ -b ${PATH_TO_BMGE}
 
 
-## ----------------------------------------
+----------------------------------------
 
 # 4 Output data files
 
