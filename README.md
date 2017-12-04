@@ -7,7 +7,7 @@ Contact: Xiao Chen (seanchen607@gmail.com)
 Institute of Evolution & Marine Biodiversity, Ocean University of China, Qingdao 266003, CHINA
 
 
-Guided Phylogenetic Search in tree (GPSit) is a simple and unsupervised method to do phylogenomic reconstruction. 
+Guided Phylogenetic Search in tree (GPSit) is a simple and automated method to do phylogenomic reconstruction. 
 
 IMPORTANT: The GPSit method is implemented in Perl v5.16, please make sure the script is running under the Perl v5.16 environment.
 
