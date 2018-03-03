@@ -18,7 +18,10 @@ IMPORTANT: The GPSit method is implemented in Perl v5.16, please make sure the s
 
 # 1 Commands and arguments
 
-How to run GPSit:
+## Workflow
+<p align="center"><img width="90%" src="docs/Figure1_Workflow_170922.jpg" /></p>
+
+## How to run GPSit
 
 	perl GPStree.pl -i <input_dir1_initial_MSAs> -n <input_dir2_new_proteins> -o <output_dir> -b <BMGE_dir> [-optional parameters]
 
@@ -41,7 +44,7 @@ The arguments of GPSit are as follows:
 	
 Note: If the users are not using default parameters for -e/-d/-g/-f/-t, GPSit will use the default values. GPSit can be run simply as (not recommended):
 
-## run GPSit scripts:
+## Getting started
 
 	perl GPStree.pl -i <input_dir1_initial_MSAs> -n <input_dir2_new_proteins> -o <output_dir> -b <BMGE_dir>
 
@@ -50,13 +53,13 @@ Note: If the users are not using default parameters for -e/-d/-g/-f/-t, GPSit wi
 
 # 2 Preparation before running GPSit
 
-2.1 Environment settings
+## 2.1 Environment settings
 
 GPSit will call MUSCLE/MrBayes/BUCKy/BLASTP when running, please set up these seperate programs and set correct environment parameters before running GPSit.
 
 Recommended protocols for environment settings:
 
-## shell command lines:
+## Shell command lines
 
 \# Environment settings before usage (please use practical paths of MUSCLE/MrBayes/BUCKy/BLASTP in the command lines below):
 
@@ -65,7 +68,7 @@ Recommended protocols for environment settings:
 	echo 'PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH' >> ~/.bashrc
 	source ~/.bashrc
 
-2.2 Preparation for initial MSA files
+## 2.2 Preparation for initial MSA files
 
 Imported MSA files of initial species and protein data files of newly sequenced species should be all in FASTA format, with ".fa" or ".fasta" as the suffixes of files.
 
@@ -116,3 +119,20 @@ The command line can be as simple as:
 06_update_MSAs: [main output file] contains updated MSAs which integrated protein data of newly sequenced species (original), updated MSAs with ambiguous sites masked [for "supertree" methods, like Bayesian Concordance Analysis (BCA), implemented in BUCKy], as well as concatenated data sets after masking [for "supermatrix" methods, like maximum likelihood (ML) and Bayesian inference (BI), carried out by RAxML and PhyloBayes, respectively].
 
 Update_MSAs_info.csv: contains the detailed information of updated MSAs.
+
+## Updated MSAs
+<p align="center"><img width="90%" src="docs/Figure2_updated_MSAs_wsong171226.jpg" /></p>
+
+## Concatenated tree by "supermatrix" methods: ML and BI
+<p align="center"><img width="90%" src="docs/Figure3_RAxML_PhyloBayes_MPI_relax_wsong171226.jpg" /></p>
+
+## Concordant tree by "supertree" method: BCA
+<p align="center"><img width="50%" src="docs/Figure4_wsong171218.png" /></p>
+
+
+----------------------------------------
+
+# 5 Citation
+
+Chen X, Wang Y, Sheng Y, Warren A, Gao S. GPSit: An automated method for evolutionary analysis of nonculturable ciliated microeukaryotes. Mol Ecol Resour. 2018;00:1–14. https://doi.org/10.1111/1755-0998.12750
+
