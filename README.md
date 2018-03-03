@@ -41,10 +41,10 @@ The arguments of GPSit are as follows:
     -g <generation_number>: [optional] integer, automatically enabled if "-U" is on, default is 100000;
     -f <sample_frequency>: [optional] integer, automatically enabled if "-U" is on, default is 100;
     -t <threads_numbr>: [optional] integer, default is 1.
-	
-Note: If the users are not using default parameters for -e/-d/-g/-f/-t, GPSit will use the default values. GPSit can be run simply as (not recommended):
 
 ## Getting started
+	
+Note: If the users are not using default parameters for -e/-d/-g/-f/-t, GPSit will use the default values. GPSit can be run simply as (not recommended):
 
 	perl GPStree.pl -i <input_dir1_initial_MSAs> -n <input_dir2_new_proteins> -o <output_dir> -b <BMGE_dir>
 
