@@ -1,3 +1,5 @@
+<p align="center"><img width="50%" src="docs/GPSit.png" /></p>
+
 # Manual of GPSit v1.0
 
 https://github.com/seanchen607/GPSit
