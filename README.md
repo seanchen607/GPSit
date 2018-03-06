@@ -19,7 +19,7 @@ IMPORTANT: The GPSit method is implemented in Perl v5.16, please make sure the s
 # 1 Commands and arguments
 
 ## Workflow
-<p align="center"><img width="90%" src="docs/Figure1_Workflow_170922.jpg" /></p>
+<p align="center"><img width="90%" src="docs/Figure1_Workflow_170922.png" /></p>
 
 ## How to run GPSit
 
@@ -121,10 +121,10 @@ The command line can be as simple as:
 Update_MSAs_info.csv: contains the detailed information of updated MSAs.
 
 ## Updated MSAs
-<p align="center"><img width="90%" src="docs/Figure2_updated_MSAs_wsong171226.jpg" /></p>
+<p align="center"><img width="90%" src="docs/Figure2_updated_MSAs_wsong171226.png" /></p>
 
 ## Concatenated tree by "supermatrix" methods: ML and BI
-<p align="center"><img width="90%" src="docs/Figure3_RAxML_PhyloBayes_MPI_relax_wsong171226.jpg" /></p>
+<p align="center"><img width="90%" src="docs/Figure3_RAxML_PhyloBayes_MPI_relax_wsong171226.png" /></p>
 
 ## Concordant tree by "supertree" method: BCA
 <p align="center"><img width="50%" src="docs/Figure4_wsong171218.png" /></p>
