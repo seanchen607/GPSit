@@ -127,7 +127,7 @@ Update_MSAs_info.csv: contains the detailed information of updated MSAs.
 <p align="center"><img width="90%" src="docs/Figure3_RAxML_PhyloBayes_MPI_relax_wsong171226.png" /></p>
 
 ## Concordant tree by "supertree" method: BCA
-<p align="center"><img width="50%" src="docs/Figure4_wsong171218.png" /></p>
+<p align="center"><img width="50%" src="docs/Figure4_wsong171219.png" /></p>
 
 
 ----------------------------------------
