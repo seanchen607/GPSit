@@ -134,5 +134,5 @@ Update_MSAs_info.csv: contains the detailed information of updated MSAs.
 
 # 5 Citation
 
-Chen X, Wang Y, Sheng Y, Warren A, Gao S. GPSit: An automated method for evolutionary analysis of nonculturable ciliated microeukaryotes. Mol Ecol Resour. 2018;00:1–14. https://doi.org/10.1111/1755-0998.12750
+Chen X, Wang Y, Sheng Y, Warren A, Gao S (2018). <b>GPSit: An automated method for evolutionary analysis of nonculturable ciliated microeukaryotes</b>. <i>Molecular Ecology Resources</i>. https://doi.org/10.1111/1755-0998.12750
 
