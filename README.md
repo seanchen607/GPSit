@@ -1,5 +1,10 @@
 <p align="center"><img width="50%" src="docs/GPSit.png" /></p>
 
+
+# Citation
+
+Chen X, Wang Y, Sheng Y, Warren A, Gao S (2018). <b>GPSit: An automated method for evolutionary analysis of nonculturable ciliated microeukaryotes</b>. <i>Molecular Ecology Resources</i>. https://doi.org/10.1111/1755-0998.12750
+
 # Manual of GPSit v1.0
 
 https://github.com/seanchen607/GPSit
@@ -131,8 +136,3 @@ Update_MSAs_info.csv: contains the detailed information of updated MSAs.
 
 
 ----------------------------------------
-
-# 5 Citation
-
-Chen X, Wang Y, Sheng Y, Warren A, Gao S (2018). <b>GPSit: An automated method for evolutionary analysis of nonculturable ciliated microeukaryotes</b>. <i>Molecular Ecology Resources</i>. https://doi.org/10.1111/1755-0998.12750
-
