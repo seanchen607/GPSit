@@ -54,7 +54,7 @@ The arguments of GPSit are as follows:
 	
 Note: If the users are not using default parameters for -e/-d/-g/-f/-t, GPSit will use the default values. GPSit can be run simply as (not recommended):
 
-	perl GPStree.pl -i <input_dir1_initial_MSAs> -n <input_dir2_new_proteins> -o <output_dir> -b <BMGE_dir>
+	perl GPSit.pl -i <input_dir1_initial_MSAs> -n <input_dir2_new_proteins> -o <output_dir> -b <BMGE_dir>
 
 	
 ----------------------------------------
