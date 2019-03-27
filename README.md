@@ -31,7 +31,7 @@ IMPORTANT: The GPSit method is implemented in Perl v5.16, please make sure the s
 
 ## How to run GPSit
 
-	perl GPStree.pl -i <input_dir1_initial_MSAs> -n <input_dir2_new_proteins> -o <output_dir> -b <BMGE_dir> [-optional parameters]
+	perl GPSit.pl -i <input_dir1_initial_MSAs> -n <input_dir2_new_proteins> -o <output_dir> -b <BMGE_dir> [-optional parameters]
 
 The arguments of GPSit are as follows:
 
