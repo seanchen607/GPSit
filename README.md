@@ -1,5 +1,7 @@
-<p align="center"><img width="50%" src="docs/GPSit.png" /></p>
+<p align="center" href="https://doi.org/10.1111/1755-0998.12750"><img width="50%" src="docs/GPSit.png" /></p>
 
+[![](https://img.shields.io/badge/release%20version-1.0.0-green.svg)](https://github.com/seanchen607/FScanR)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 # Citation
 
