@@ -1,4 +1,5 @@
-<p align="center" href="https://doi.org/10.1111/1755-0998.12750"><img width="50%" src="docs/GPSit.png" /></p>
+<!-- <p href="https://doi.org/10.1111/1755-0998.12750"><img width="50%" src="docs/GPSit.png" align="center" /></p> -->
+<a href="https://doi.org/10.1111/1755-0998.12750"><img src="docs/GPSit.png" height="200" align="right" /></a>
 
 [![](https://img.shields.io/badge/release%20version-1.0.0-green.svg)](https://github.com/seanchen607/FScanR)
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
@@ -29,7 +30,7 @@ IMPORTANT: The GPSit method is implemented in Perl v5.16, please make sure the s
 # 1 Commands and arguments
 
 ## Workflow
-<p align="center"><img width="90%" src="docs/Figure1_Workflow_170922.png" /></p>
+<p align="center"><img width="70%" src="docs/Figure1_Workflow_170922.png" /></p>
 
 ## How to run GPSit
 
@@ -137,7 +138,7 @@ Update_MSAs_info.csv: contains the detailed information of updated MSAs.
 <p align="center"><img width="90%" src="docs/Figure3_RAxML_PhyloBayes_MPI_relax_wsong171226.png" /></p>
 
 ## Concordant tree by "supertree" method: BCA
-<p align="center"><img width="50%" src="docs/Figure4_wsong171219.png" /></p>
+<p align="center"><img width="40%" src="docs/Figure4_wsong171219.png" /></p>
 
 
 ----------------------------------------
